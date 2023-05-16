@@ -1,0 +1,117 @@
+#tweet-text {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  overflow-wrap: break-word;
+  background-color: transparent;
+}
+
+/*Question prompt = bold*/
+label{
+  font-weight: bold;
+}
+
+/*tweet button <- space -> number value*/
+.tweetalign{
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Edit design of tweet button*/
+.tweetbutton{
+  font-family: "Bungee", sans-serif;
+  color: white;
+  background-color: #4056A1;
+}
+
+/*When negative, counter = red, bold*/
+.countIsNegative {
+  font-weight: bold;
+  color: red;
+}
+
+/*Main container for tweet*/
+#containertweet {
+  margin: auto;
+  margin-top: 50px;
+  max-width: 1000px;
+  padding-bottom: 20px
+}
+
+/*Border for the tweet box*/
+.bordertweet {
+  border: solid;
+  /* margin: 3px; */
+}
+
+/*Container for username, photo, name for tweet*/
+.headertweet {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; 
+  /* margin: 20px; */
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+  height: 80px;
+  background-color:  #f4f1ec;
+  margin-top: 5px;
+}
+
+/*Space between photo & user name*/
+.headeruserphoto {
+  /* width: 50px; */
+  margin-left: 20px;
+}
+
+/*Username font*/
+.headername{
+  margin-left: 10px;
+  font-family: 'Source Sans Pro';
+}
+
+/*Username font, placement*/
+.headerusername{
+  width: 100%;
+  margin: 20px; 
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-end;
+  color: #A9A9A9; 
+  font-family: 'Source Sans Pro';
+}
+
+/*Tweet placement, font*/
+.tweetsentence {
+  border-bottom: solid;
+  padding-bottom: 30px;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*Container for tweet time & icons*/
+.footertweet {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+/*Hovering over icon = orange*/
+.btn:hover {
+  color: orange;
+}
+
+/*Mouse hovering over tweet container*/
+.bordertweet:hover {
+  box-shadow: 5px 10px grey;
+}
+
+/*Error message when user inputs wrong data*/
+.errormessage{
+  color: red;
+  align-items: center; 
+}

@@ -1,0 +1,26 @@
+/* main {
+  color: white;
+} */
+header {
+  height: 120px;
+  width: 100vw;
+  background-color: #4056A1;
+  font color: #FFFFFF;
+  position: fixed;
+}
+span {
+  font-family: Bungee;
+  position: fixed;
+  left: 1.5em;
+  right: 1.5em;
+}
+
+/*CSS for arrow button under "Wrtie a new tweet"*/
+.arrowbutton {
+  color: red;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+
