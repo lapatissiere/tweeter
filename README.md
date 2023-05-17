@@ -15,9 +15,15 @@ Tweeter is a simple, single-page Twitter clone built using HTML, CSS, JS, jQuery
 ## Dependencies
 
 "mode": "5.10.x" or above,
+
 "body-parser": "^1.20.2",
+
 "chance": "^1.0.2",
+
 "express": "^4.18.2",
+
 "git": "^0.1.5",
+
 "md5": "^2.1.0",
+
 "timeago.js": "^4.0.2"
