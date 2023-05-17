@@ -2,6 +2,12 @@
 
 Tweeter is a simple, single-page Twitter clone built using HTML, CSS, JS, jQuery, AJAX, Node and Express.
 
+## Screeshots
+
+![Tweeter Box](https://github.com/lapatissiere/tweeter/blob/master/docs/tweet-box.png?raw=true)
+
+![Tweet Project](https://github.com/lapatissiere/tweeter/blob/master/docs/tweeter-project.png?raw=true)
+
 ## Getting Started
 
 1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
