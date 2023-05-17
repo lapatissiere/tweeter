@@ -2,8 +2,6 @@
 
 Tweeter is a simple, single-page Twitter clone built using HTML, CSS, JS, jQuery, AJAX, Node and Express.
 
-![My Tweeter Project](vscode-local:/c%3A/Users/User/Pictures/Screenshots/Screenshot%20%282%29.png)
-
 ## Getting Started
 
 1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
