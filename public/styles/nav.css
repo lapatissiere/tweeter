@@ -1,26 +1,43 @@
-/* main {
-  color: white;
-} */
-header {
+/*Creating CSS properties for nav bar at top of page */
+nav {
   height: 120px;
-  width: 100vw;
+  width: 100%;
   background-color: #4056A1;
-  font color: #FFFFFF;
-  position: fixed;
-}
-span {
-  font-family: Bungee;
-  position: fixed;
-  left: 1.5em;
-  right: 1.5em;
-}
-
-/*CSS for arrow button under "Wrtie a new tweet"*/
-.arrowbutton {
-  color: red;
-  padding: 0;
-  border: none;
-  background: none;
-}
-
-
+  color: #FFFFFF;
+  top: 0; /*so nav bar stays at top*/
+  position: fixed; /*overlay nav bar*/
+  font-family: 'Bungee', 'sans-serif';
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  /*Class for the word TWEETER*/
+  span {
+    font-family: "Bungee", sans-serif;
+    display: flex;
+     font-size: 18px;
+    align-items: center;
+  }
+  
+  /*Bold for 'Write'*/
+  .bold {
+    font-weight: bold;
+  }
+  
+  /*Container for content on right of nav bar*/
+  .content-right {
+    font-family: 'Source Sans Pro';
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+  }
+  
+  /*CSS for arrow button under 'Write a new tweet' section*/
+  .arrowbutton {
+    color: red;
+    padding: 0;
+    border: none;
+    background: none;
+  }

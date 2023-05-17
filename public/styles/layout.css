@@ -1,8 +1,6 @@
-/*
- * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+/* http://www.paulirish.com/2012/box-sizing-border-box-ftw/
  * https://css-tricks.com/international-box-sizing-awareness-day/
- * Do not modify these two selectors, please
- */
+ * Do not modify these two selectors, please*/
 html {
   box-sizing: border-box;
 }
@@ -10,16 +8,13 @@ html {
   box-sizing: inherit;
 }
 
-/*
- * Global layout stuff
- */
+/*Global layout stuff*/
  .nav-list-item a {
   color: #545149;
   background-color: #f4f1ec;
   font-family: Bungee;
   font-size: 24px;
 }
-
 
 body {
   color: #545149;
@@ -28,9 +23,8 @@ body {
   font-size: 24px;
 }
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
+/* Additional CSS can be defined below or in other CSS files, as per instructions */
+
  main {
   width: 90%;
   margin: auto;

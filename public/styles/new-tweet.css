@@ -43,7 +43,6 @@ label{
 /*Border for the tweet box*/
 .bordertweet {
   border: solid;
-  /* margin: 3px; */
 }
 
 /*Container for username, photo, name for tweet*/
@@ -51,9 +50,6 @@ label{
   display: flex;
   flex-direction: row;
   justify-content: flex-start; 
-  /* margin: 20px; */
-  /* margin-left: 10px; */
-  /* margin-right: 10px; */
   height: 80px;
   background-color:  #f4f1ec;
   margin-top: 5px;
@@ -61,7 +57,6 @@ label{
 
 /*Space between photo & user name*/
 .headeruserphoto {
-  /* width: 50px; */
   margin-left: 20px;
 }
 
