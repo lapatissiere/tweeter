@@ -60,7 +60,7 @@ $(document).ready(function() {
     if ($("#tweet-text").val().length > 140) {
       $(".errormessage").html(`<i class="fa-solid fa-triangle-exclamation"></i> &nbsp Error: Your tweet is over 140 characters! &nbsp <i class="fa-solid fa-triangle-exclamation"></i>`).slideDown().delay(3000).slideUp(500);
     } else if ($("#tweet-text").val().length === 0) {
-      $(".errormessage").html(`<i class="fa-solid fa-triangle-exclamation"></i> &nbsp Error: Your tweet can't be empty! &nbsp <i class="fa-solid fa-triangle-exclamation"></i>`).slideDown().delay(3000).slideUp(500);
+      $(".errormessage").html(`<i class="fa-solid fa-triangle-exclamation"></i> &nbsp Error: A blank tweet cannot be posted! &nbsp <i class="fa-solid fa-triangle-exclamation"></i>`).slideDown().delay(3000).slideUp(500);
 // return;
     } else {
       $(".errormessage").html(``);

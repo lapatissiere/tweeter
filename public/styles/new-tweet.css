@@ -3,7 +3,7 @@
   height: 50px;
   border: none;
   border-bottom-style: solid;
-  border-bottom-color: grey;
+  border-bottom-color: #808080;
   overflow-wrap: break-word;
   background-color: transparent;
 }
@@ -22,14 +22,14 @@ label{
 /*Edit design of tweet button*/
 .tweetbutton{
   font-family: "Bungee", sans-serif;
-  color: white;
+  color: #ffffff;
   background-color: #4056A1;
 }
 
 /*When negative, counter = red, bold*/
 .countIsNegative {
   font-weight: bold;
-  color: red;
+  color: #ff0000;
 }
 
 /*Main container for tweet*/
