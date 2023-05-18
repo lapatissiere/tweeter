@@ -32,6 +32,10 @@ label{
   color: #ff0000;
 }
 
+.new-tweet .counter.red {
+  color: red;
+}
+
 /*Main container for tweet*/
 #containertweet {
   margin: auto;
