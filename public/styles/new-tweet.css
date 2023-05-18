@@ -5,6 +5,7 @@
   border-bottom-style: solid;
   border-bottom-color: #808080;
   overflow-wrap: break-word;
+  word-break: break-all;
   background-color: transparent;
 }
 
@@ -88,6 +89,7 @@ label{
   margin: 20px;
   font-size: 18px;
   font-weight: bold;
+  word-break: break-all;
 }
 
 /*Container for tweet time & icons*/

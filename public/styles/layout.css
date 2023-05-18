@@ -29,6 +29,8 @@ body {
   width: 90%;
   margin: auto;
   vertical-align: middle;
+  flex-direction: column;
+  justify-content: center;
   background-color: #f4f1ec;
   padding-top: 20px;
  }
